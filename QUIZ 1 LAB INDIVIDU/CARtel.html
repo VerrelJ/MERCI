@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARtel</title>
+    <link href="//db.onlinewebfonts.com/c/c6d0c3476f03737f8893e7e596ab8aef?family=Android+7" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/57b09c9c7d39781d8017c275b8aa100d?family=Bionic+Kid+Simple" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="CARtel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class = "header">
+        <a href="http://127.0.0.1:5501/CARtel.html" class="comp">MERCI</a>
+        <div class="right">
+          <a href="http://127.0.0.1:5501/CARtel.html">Home</a>
+          <a href="http://127.0.0.1:5501/Contact.html">Contact</a>
+          <a href="http://127.0.0.1:5501/about.html">About</a>
+          <a href="http://127.0.0.1:5501/LogIn.html">Sign In</a>
+        </div>
+    </div>
+    <div class = container>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Rent-A-Car-Facebook-Cover-09.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Rent-A-Car-Facebook-Cover-13.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Rent-A-Car-Facebook-Cover-09.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Rent-A-Car-Facebook-Cover-13.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <p id = "Welcome">
+        CARS AVAILABLE IN OUR GALLERY
+    </p>
+
+    <div class="cont">
+        <div class="image">
+           <img src="porsche.jpg" alt="">
+            <div class="overlay">
+                <div class="text">Porsche 911 GTS 2022</div>
+             </div>
+             <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+          </div>
+      <div class="image">
+          <img src="GT500.jpg" alt="">
+          <div class="overlay">
+              <div class="text">Mustang GT500</div>
+          </div>
+          <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+      </div>
+      <div class="image">
+          <img src="merci c200.jpg" alt="">
+          <div class="overlay">
+              <div class="text">Mercedez Benz C200</div>
+          </div>
+          <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+      </div>
+  </div> <br><br><br>
+  <div class="cont">
+        <div class="image">
+           <img src="jeep wrangler.jpg" alt="">
+            <div class="overlay">
+                <div class="text">Jeep Wrangler Rubicon 392</div>
+             </div>
+             <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+          </div>
+      <div class="image">
+          <img src="spider.jpg" alt="">
+          <div class="overlay">
+              <div class="text">Ferrari 488 Pista Spider</div>
+          </div>
+          <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+      </div>
+      <div class="image">
+          <img src="bmw.webp" alt="">
+          <div class="overlay">
+              <div class="text">BMW i8 Liberty Walk Roadster</div>
+          </div>
+          <p>
+              Price     : $1000<br>
+              Condition : Brand New<br>
+              Call Now To get 30% discount<br>
+          </p>
+      </div>
+    </div><br><br><br>
+    <div class="foot">
+      <p>&copy; 2022 Verrel Lukmana</p>
+    </div>
+<script src="CARtel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+@import url(//db.onlinewebfonts.com/c/57b09c9c7d39781d8017c275b8aa100d?family=Bionic+Kid+Simple);
+@import url(//db.onlinewebfonts.com/c/c6d0c3476f03737f8893e7e596ab8aef?family=Android+7);
+
+@font-face {
+  font-family: "Bionic Kid Simple"; src: 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.eot"); src: 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/57b09c9c7d39781d8017c275b8aa100d.svg#Bionic Kid Simple") format("svg"); 
+}
+
+@font-face {
+  font-family: "Android 7"; src: 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.eot"); src: 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/c6d0c3476f03737f8893e7e596ab8aef.svg#Android 7") format("svg"); 
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(./bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Android 7';
+    margin : 0;
+}
+
+.container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: fit-content;
+}
+
+.swiper-slide img{
+  width: 100%;
+}
+
+.about_sec{
+  /* background-color: #474e5d; */
+  color: white;
+}
+
+#aboutUs{
+  text-align: center;
+  font-size: 50px;
+}
+
+#aboutIns{
+  margin: auto;
+  font-size: 25px;
+  width: 90%;
+  text-align: justify;
+}
+
+.about_sec img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.map{
+  display: block;
+  margin-left: 8%;
+  margin-right: auto;
+}
+
+#addr{
+  font-size: 50px;
+}
+
+#addr2{
+  font-size: 25px;
+}
+
+.map img{
+  width: 90%;
+}
+
+.gmap:hover{
+  opacity: 0.7;
+}
+
+.link{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link a{
+  width: 500px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  margin: 0 10px;
+}
+
+#t{
+  font-size: 50px;
+  margin-left: 8%;
+  margin-right: auto;
+}
+
+.link img{
+  width: 200px;
+}
+
+.telp{
+  position: relative;
+}
+
+.over{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1f1f1;
+}
+
+.toko:hover{
+  opacity: 0.7;
+}
+
+.ig:hover{
+  opacity: 0.7;
+}
+
+.telp:hover .over{
+  opacity: 0.7;
+}
+
+.tt{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header {
+    overflow: hidden;
+    /* background-color: #f87a03; */
+    padding: 10px;
+    /* font-family: 'Anton', sans-serif; */
+}
+  
+  .header a {
+    float: left;
+    color: #f87a03;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.comp {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bionic Kid Simple';
+  }
+
+  .header a:hover {
+    color: gray;
+  } 
+  
+
+  .right {
+    float: right;
+    font-weight: bold;
+  }
+  
+
+.cont{
+    margin-bottom: 5%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.image{
+    width: 1000px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f1f1f1;
+}
+  
+.image:hover .overlay{
+    opacity: 0.7;
+}
+
+.text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Android 7';
+}
+
+#Welcome {
+  margin-top: 10%;
+  font-size: 70px;
+  text-align: center;
+  color: #f87a03;
+}
+
+p{
+  color: #f1f1f1;
+  font-weight: bold;
+  font-family: 'Android 7';
+}
+
+
+.mid {
+  position: relative;
+  width: 100%;
+  height: 106vh;
+}
+
+
+.mid img {
+  width: 100%;
+}
+.mid h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Android 7';
+  font-size: 40px;
+  color: #f1f1f1;
+}
+#btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Android 7';
+}
+
+#btn:hover {
+  background-color: #f87a03;
+}
+
+
+.footer {
+  background-color: #f87a03;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.foot{
+  background-color: #f87a03;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
